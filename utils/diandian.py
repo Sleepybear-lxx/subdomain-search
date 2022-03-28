@@ -15,8 +15,3 @@ class Diandian():
 		rule='<a href="//tool\.chinaz\.com/subdomain\?domain=(.*?)" target="_blank">'
 		res=re.findall(rule,raw_content)
 		return res
-
-
-
-# a=Diandian()
-# a.run()
