@@ -21,6 +21,3 @@ brute_res=brute.do_brute()
 cach_file=os.path.join(cach_path,'brute.json')
 save_file(cach_file,brute_res)
 print ('\nFinish sub_domian search:brute and save!')
-
-
-
